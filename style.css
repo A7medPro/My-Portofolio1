@@ -74,7 +74,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(../photo/code2.jpg) no-repeat;
+  background: url(photo/code2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -176,7 +176,7 @@ section {
 }
 
 .projects {
-  background: url(../photo/code3.jpg);
+  background: url(photo/code3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
