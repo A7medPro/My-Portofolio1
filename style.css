@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+header {
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(218, 40%, 45%);
+}
+
+.avatar {
+  width: 65px;
+  height:60px;
+  display: flex;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  left: 310px;
+  top: 2px;
+}
+
+.avatar:hover {
+  transition: 0.7s ease-out;
+  transform: scale(2.2);
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  left: 340px;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: hsl(218, 40%, 45%);
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  color: hsl(217, 100%, 71%);
+  text-decoration: underline dashed hsl(218, 40%, 45%);
+}
+
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../photo/code2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.job-name {
+  color: hsl(217, 50%, 39%);
+  font-size: 3em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.main h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.main-btn {
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(75, 75, 255);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.4em;
+  border-radius: 15px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+.social-icon a {
+  color: hsl(218, 40%, 45%);
+  font-size: 1.2em;
+  padding-right: 30px;
+  margin-left: 28px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: hsl(218, 40%, 45%);
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 20.1em;
+  box-shadow: 0 5PX 25PX rgba(1, 1, 1, 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: hsl(218, 40%, 45%);
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: hsl(218, 40%, 45%);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.projects {
+  background: url(../photo/code3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.projects .content {
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+  min-height: 14em;
+  width: 19.5em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-video video {
+  width: 100%;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-category {
+  font-size: 0.8em;
+  color: hsl(218, 100%, 13%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.more-details {
+  text-decoration: none;
+  color: hsl(218, 93%, 17%);
+  margin-left: 49px;
+}
+
+.more-details:hover {
+  color: hsl(217, 72%, 73%);
+  text-decoration: underline dashed hsl(218, 40%, 45%);
+}
+
+.contact .icon {
+  font-size: 4.5em;
+}
+
+.contact .info p  {
+  font-size: 1.5em;
+}
+
+.contact .info p a {
+  text-decoration: none;
+  color: hsl(218, 40%, 45%);
+}
+
+.contact .info p a:hover {
+  font-weight: bold;
+  color: hsl(217, 72%, 73%);
+  text-decoration: underline dashed hsl(218, 40%, 45%);
+  }
+
+  .contact .info .numper-phone {
+    margin-top: 0.8em;
+  }
+
+.contact .info .email {
+  font-size: 1.2em;
+}
+
+.contact .info .under-email {
+  color: hsl(218, 40%, 45%);
+  font-size: 1.5em;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: hsl(212, 45%, 89%);
+  color:hsl(218, 40%, 45%);
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer .social-icon a {
+  margin-right: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  font-size: 1.5em;
+}
+
+.footer .social-icon a:hover {
+  color: hsl(217, 100%, 71%);
+}
+
+.footer-title span a {
+  color:hsl(218, 40%, 45%);
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-left: 15px;
+}
+
+.footer-title span a:hover {
+  font-weight: bold;
+  color: hsl(217, 100%, 71%);
+  text-decoration: underline dashed hsl(218, 40%, 45%);
+}
+
+@media (max-width:1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .avatar {
+    width: 0;
+    height: 0;
+  }
+
+  .navigation a{
+    padding-left: 10px;
+
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main h2 {
+    font-size: 1em;
+  }
+
+  .main h3 {
+    font-size: 1.5em;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title span a:hover {
+    color: hsl(217, 100%, 71%);
+    text-decoration: underline dashed hsl(218, 40%, 45%);
+    font-weight: normal;
+  }
+
+  .footer .social-icon a {
+    margin-right: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 1em;
+    align-items: center;  
+}
+
+}
+
+@media (max-width:641px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  header {
+    padding: 12px 20px;
+  }
+
+  .avatar {
+    width: 0;
+    height: 0;
+  }
+
+  .navigation a{
+    padding-left: 10px;
+
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .main h2 {
+    font-size: 0.8em;
+  }
+
+  .main h3 {
+    font-size: 1.2em;
+  }
+
+  .footer-title span a:hover {
+    color: hsl(217, 100%, 71%);
+    text-decoration: underline dashed hsl(218, 40%, 45%);
+    font-weight: normal;
+  }
+
+  .footer .social-icon a {
+    margin-right: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 1em;
+    align-items: center;  
+}
+
+}
+
+@media (max-width:300px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  .avatar {
+    width: 0;
+    height: 0;
+  }
+
+  .navigation a{
+    padding-left: 5px;
+    font-size: 0.8em;
+  }
+
+  .social-icon a {
+    color: hsl(218, 40%, 45%);
+    font-size: 1.5em;
+    padding-right: 15px;
+    margin-left: 10px;
+  }
+
+  .main h2 {
+    font-size: 0.5em;
+  }
+
+  .main h3 {
+    font-size: 1.2em;
+  }
+
+  .footer-title span a {
+    color:hsl(218, 40%, 45%);
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-left: 2px;
+  }
+
+  .footer-title span a:hover {
+    color: hsl(217, 100%, 71%);
+    text-decoration: underline dashed hsl(218, 40%, 45%);
+    font-weight: normal;
+  }
+
+  .footer .social-icon a {
+    margin-right: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 3px;
+    margin-left: 3px;
+    font-size: 0.7em;
+    align-items: center;  
+}
+
+}
