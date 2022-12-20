@@ -9,6 +9,17 @@
   position: relative;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:  hsl(217, 50%, 39%);
+  border-radius: 10px;
+}
+
 header {
   background-color: hsl(212, 45%, 89%);
   width: 100%;
