@@ -106,7 +106,7 @@ section {
   color: hsl(0, 0%, 100%);
   background-color: rgb(75, 75, 255);
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   display: inline-block;
   padding: 0.4em;
@@ -126,6 +126,12 @@ section {
   font-size: 1.2em;
   padding-right: 30px;
   margin-left: 28px;
+  transition: 0.7s ease;
+}
+
+.social-icon a:hover {
+  transform: scale(1.1);
+  color: hsl(217, 72%, 73%);
 }
 
 .title {
